@@ -46,10 +46,10 @@ SDK_LDDIR	= ld
 SDK_INCDIR	= include
 
 # select which tools to use as compiler, librarian and linker
-CC		:= $(XTENSA_TOOLS_ROOT)xtensa-lx106-elf-gcc
-AR		:= $(XTENSA_TOOLS_ROOT)xtensa-lx106-elf-ar
-LD		:= $(XTENSA_TOOLS_ROOT)xtensa-lx106-elf-gcc
-OBJCOPY	:= $(XTENSA_TOOLS_ROOT)xtensa-lx106-elf-objcopy
+CC		:= $(XTENSA_TOOLS_ROOT)/xtensa-lx106-elf-gcc
+AR		:= $(XTENSA_TOOLS_ROOT)/xtensa-lx106-elf-ar
+LD		:= $(XTENSA_TOOLS_ROOT)/xtensa-lx106-elf-gcc
+OBJCOPY	:= $(XTENSA_TOOLS_ROOT)/xtensa-lx106-elf-objcopy
 
 ####
 #### no user configurable options below here
